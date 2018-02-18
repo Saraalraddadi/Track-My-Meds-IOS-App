@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189E90611ED987920023372C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90601ED987920023372C /* ViewController.swift */; };
+		189E90771ED987920023372C /* TrackMyMedsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90761ED987920023372C /* TrackMyMedsTests.swift */; };
+		189E90821ED987920023372C /* TrackMyMedsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90811ED987920023372C /* TrackMyMedsUITests.swift */; };
+		189E90901ED988110023372C /* DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 189E908F1ED988110023372C /* DataModel.xcdatamodel */; };
+		189E90921ED9882F0023372C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189E90911ED9882F0023372C /* Main.storyboard */; };
+		189E90941ED988620023372C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189E90931ED988620023372C /* LaunchScreen.storyboard */; };
+		189E90A51ED98D8A0023372C /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90971ED98D8A0023372C /* AddAlarmViewController.swift */; };
+		189E90A61ED98D8A0023372C /* AddMedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90981ED98D8A0023372C /* AddMedicineViewController.swift */; };
+		189E90A71ED98D8A0023372C /* AlarmNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90991ED98D8A0023372C /* AlarmNotificationViewController.swift */; };
+		189E90A81ED98D8A0023372C /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E909A1ED98D8A0023372C /* AlarmViewController.swift */; };
+		189E90A91ED98D8A0023372C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 189E909B1ED98D8A0023372C /* GoogleService-Info.plist */; };
+		189E90AA1ED98D8A0023372C /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E909C1ED98D8A0023372C /* HomeCollectionViewCell.swift */; };
+		189E90AB1ED98D8A0023372C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E909D1ED98D8A0023372C /* HomeViewController.swift */; };
+		189E90AC1ED98D8A0023372C /* JHProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E909E1ED98D8A0023372C /* JHProgressHUD.swift */; };
+		189E90AD1ED98D8A0023372C /* MedicineDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E909F1ED98D8A0023372C /* MedicineDetailsViewController.swift */; };
+		189E90AE1ED98D8A0023372C /* medicineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90A01ED98D8A0023372C /* medicineTableViewCell.swift */; };
+		189E90AF1ED98D8A0023372C /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90A11ED98D8A0023372C /* MedicineViewController.swift */; };
+		189E90B01ED98D8A0023372C /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90A21ED98D8A0023372C /* MoreViewController.swift */; };
+		189E90B11ED98D8A0023372C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90A31ED98D8A0023372C /* RegisterViewController.swift */; };
+		189E90B31ED98E0B0023372C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90B21ED98E0B0023372C /* AppDelegate.swift */; };
+		189E90B41ED995CC0023372C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189E90951ED988860023372C /* Assets.xcassets */; };
+		189E90B61ED99BD50023372C /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E90B51ED99BD50023372C /* UserViewController.swift */; };
+		381DA02BB2F25E73D4BE963F /* Pods_TrackMyMedsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C6DD7DE9DD4D22F58F01BF /* Pods_TrackMyMedsUITests.framework */; };
+		6F8F31BAE699615D12DB93EF /* Pods_TrackMyMedsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E4F2602FDA1BC538558806 /* Pods_TrackMyMedsTests.framework */; };
+		CECDD0771EE34E8500064CFD /* SearchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDD0761EE34E8500064CFD /* SearchPageViewController.swift */; };
+		E2374D641F83C1A422433658 /* Pods_TrackMyMeds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750BFDC2876C6AC05453D352 /* Pods_TrackMyMeds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189E90731ED987920023372C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189E90531ED987910023372C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189E905A1ED987910023372C;
+			remoteInfo = TrackMyMeds;
+		};
+		189E907E1ED987920023372C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189E90531ED987910023372C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189E905A1ED987910023372C;
+			remoteInfo = TrackMyMeds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189E905B1ED987910023372C /* TrackMyMeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMyMeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189E90601ED987920023372C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		189E906D1ED987920023372C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189E90721ED987920023372C /* TrackMyMedsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMyMedsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189E90761ED987920023372C /* TrackMyMedsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMyMedsTests.swift; sourceTree = "<group>"; };
+		189E90781ED987920023372C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189E907D1ED987920023372C /* TrackMyMedsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMyMedsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189E90811ED987920023372C /* TrackMyMedsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMyMedsUITests.swift; sourceTree = "<group>"; };
+		189E90831ED987920023372C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189E908F1ED988110023372C /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		189E90911ED9882F0023372C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		189E90931ED988620023372C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189E90951ED988860023372C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189E90971ED98D8A0023372C /* AddAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
+		189E90981ED98D8A0023372C /* AddMedicineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMedicineViewController.swift; sourceTree = "<group>"; };
+		189E90991ED98D8A0023372C /* AlarmNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmNotificationViewController.swift; sourceTree = "<group>"; };
+		189E909A1ED98D8A0023372C /* AlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		189E909B1ED98D8A0023372C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		189E909C1ED98D8A0023372C /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		189E909D1ED98D8A0023372C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		189E909E1ED98D8A0023372C /* JHProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHProgressHUD.swift; sourceTree = "<group>"; };
+		189E909F1ED98D8A0023372C /* MedicineDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineDetailsViewController.swift; sourceTree = "<group>"; };
+		189E90A01ED98D8A0023372C /* medicineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = medicineTableViewCell.swift; sourceTree = "<group>"; };
+		189E90A11ED98D8A0023372C /* MedicineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineViewController.swift; sourceTree = "<group>"; };
+		189E90A21ED98D8A0023372C /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		189E90A31ED98D8A0023372C /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		189E90A41ED98D8A0023372C /* TrackMyMeds-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TrackMyMeds-Bridging-Header.h"; sourceTree = "<group>"; };
+		189E90B21ED98E0B0023372C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189E90B51ED99BD50023372C /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		1FD99C7E16599D5E1EA84D38 /* Pods-TrackMyMeds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMyMeds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackMyMeds/Pods-TrackMyMeds.debug.xcconfig"; sourceTree = "<group>"; };
+		750BFDC2876C6AC05453D352 /* Pods_TrackMyMeds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackMyMeds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90BDAC7AEBF375D0254B2CFC /* Pods-TrackMyMedsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMyMedsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackMyMedsTests/Pods-TrackMyMedsTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0405395BE24298344EEE1A9 /* Pods-TrackMyMeds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMyMeds.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackMyMeds/Pods-TrackMyMeds.release.xcconfig"; sourceTree = "<group>"; };
+		A9E4F2602FDA1BC538558806 /* Pods_TrackMyMedsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackMyMedsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9781A822963AC7D8A99341 /* Pods-TrackMyMedsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMyMedsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackMyMedsTests/Pods-TrackMyMedsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CECDD0761EE34E8500064CFD /* SearchPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPageViewController.swift; sourceTree = "<group>"; };
+		D5C6DD7DE9DD4D22F58F01BF /* Pods_TrackMyMedsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackMyMedsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84553C94A8DB537FE621015 /* Pods-TrackMyMedsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMyMedsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackMyMedsUITests/Pods-TrackMyMedsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE692B5778E298241D021D83 /* Pods-TrackMyMedsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMyMedsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackMyMedsUITests/Pods-TrackMyMedsUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189E90581ED987910023372C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2374D641F83C1A422433658 /* Pods_TrackMyMeds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E906F1ED987920023372C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8F31BAE699615D12DB93EF /* Pods_TrackMyMedsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E907A1ED987920023372C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381DA02BB2F25E73D4BE963F /* Pods_TrackMyMedsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189E90521ED987910023372C = {
+			isa = PBXGroup;
+			children = (
+				189E905D1ED987910023372C /* TrackMyMeds */,
+				189E90751ED987920023372C /* TrackMyMedsTests */,
+				189E90801ED987920023372C /* TrackMyMedsUITests */,
+				189E905C1ED987910023372C /* Products */,
+				461A414177038F870CFF52E2 /* Pods */,
+				AB547B8B20C5926D33958C97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		189E905C1ED987910023372C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189E905B1ED987910023372C /* TrackMyMeds.app */,
+				189E90721ED987920023372C /* TrackMyMedsTests.xctest */,
+				189E907D1ED987920023372C /* TrackMyMedsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189E905D1ED987910023372C /* TrackMyMeds */ = {
+			isa = PBXGroup;
+			children = (
+				189E90B51ED99BD50023372C /* UserViewController.swift */,
+				189E90B21ED98E0B0023372C /* AppDelegate.swift */,
+				189E90971ED98D8A0023372C /* AddAlarmViewController.swift */,
+				189E90981ED98D8A0023372C /* AddMedicineViewController.swift */,
+				189E90991ED98D8A0023372C /* AlarmNotificationViewController.swift */,
+				189E909A1ED98D8A0023372C /* AlarmViewController.swift */,
+				189E909B1ED98D8A0023372C /* GoogleService-Info.plist */,
+				189E909C1ED98D8A0023372C /* HomeCollectionViewCell.swift */,
+				189E909D1ED98D8A0023372C /* HomeViewController.swift */,
+				189E909E1ED98D8A0023372C /* JHProgressHUD.swift */,
+				189E909F1ED98D8A0023372C /* MedicineDetailsViewController.swift */,
+				189E90A01ED98D8A0023372C /* medicineTableViewCell.swift */,
+				189E90A11ED98D8A0023372C /* MedicineViewController.swift */,
+				CECDD0761EE34E8500064CFD /* SearchPageViewController.swift */,
+				189E90A21ED98D8A0023372C /* MoreViewController.swift */,
+				189E90A31ED98D8A0023372C /* RegisterViewController.swift */,
+				189E90A41ED98D8A0023372C /* TrackMyMeds-Bridging-Header.h */,
+				189E90601ED987920023372C /* ViewController.swift */,
+				189E90911ED9882F0023372C /* Main.storyboard */,
+				189E90931ED988620023372C /* LaunchScreen.storyboard */,
+				189E90951ED988860023372C /* Assets.xcassets */,
+				189E906D1ED987920023372C /* Info.plist */,
+				189E908F1ED988110023372C /* DataModel.xcdatamodel */,
+			);
+			path = TrackMyMeds;
+			sourceTree = "<group>";
+		};
+		189E90751ED987920023372C /* TrackMyMedsTests */ = {
+			isa = PBXGroup;
+			children = (
+				189E90761ED987920023372C /* TrackMyMedsTests.swift */,
+				189E90781ED987920023372C /* Info.plist */,
+			);
+			path = TrackMyMedsTests;
+			sourceTree = "<group>";
+		};
+		189E90801ED987920023372C /* TrackMyMedsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189E90811ED987920023372C /* TrackMyMedsUITests.swift */,
+				189E90831ED987920023372C /* Info.plist */,
+			);
+			path = TrackMyMedsUITests;
+			sourceTree = "<group>";
+		};
+		461A414177038F870CFF52E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FD99C7E16599D5E1EA84D38 /* Pods-TrackMyMeds.debug.xcconfig */,
+				A0405395BE24298344EEE1A9 /* Pods-TrackMyMeds.release.xcconfig */,
+				BF9781A822963AC7D8A99341 /* Pods-TrackMyMedsTests.debug.xcconfig */,
+				90BDAC7AEBF375D0254B2CFC /* Pods-TrackMyMedsTests.release.xcconfig */,
+				E84553C94A8DB537FE621015 /* Pods-TrackMyMedsUITests.debug.xcconfig */,
+				EE692B5778E298241D021D83 /* Pods-TrackMyMedsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB547B8B20C5926D33958C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				750BFDC2876C6AC05453D352 /* Pods_TrackMyMeds.framework */,
+				A9E4F2602FDA1BC538558806 /* Pods_TrackMyMedsTests.framework */,
+				D5C6DD7DE9DD4D22F58F01BF /* Pods_TrackMyMedsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189E905A1ED987910023372C /* TrackMyMeds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189E90861ED987920023372C /* Build configuration list for PBXNativeTarget "TrackMyMeds" */;
+			buildPhases = (
+				94945EB3F2707038D3B57346 /* [CP] Check Pods Manifest.lock */,
+				189E90571ED987910023372C /* Sources */,
+				189E90581ED987910023372C /* Frameworks */,
+				189E90591ED987910023372C /* Resources */,
+				36E1FA3C00296C1C4339AA60 /* [CP] Embed Pods Frameworks */,
+				0D78F4EC8477F2805D204504 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMyMeds;
+			productName = TrackMyMeds;
+			productReference = 189E905B1ED987910023372C /* TrackMyMeds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189E90711ED987920023372C /* TrackMyMedsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189E90891ED987920023372C /* Build configuration list for PBXNativeTarget "TrackMyMedsTests" */;
+			buildPhases = (
+				150E659CBA7DE55856536CDC /* [CP] Check Pods Manifest.lock */,
+				189E906E1ED987920023372C /* Sources */,
+				189E906F1ED987920023372C /* Frameworks */,
+				189E90701ED987920023372C /* Resources */,
+				C01F3369F5B95DA99A83951F /* [CP] Embed Pods Frameworks */,
+				10556D9BED5C4FA47BD4B687 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189E90741ED987920023372C /* PBXTargetDependency */,
+			);
+			name = TrackMyMedsTests;
+			productName = TrackMyMedsTests;
+			productReference = 189E90721ED987920023372C /* TrackMyMedsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189E907C1ED987920023372C /* TrackMyMedsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189E908C1ED987920023372C /* Build configuration list for PBXNativeTarget "TrackMyMedsUITests" */;
+			buildPhases = (
+				2CD27DDC81886EED3678864E /* [CP] Check Pods Manifest.lock */,
+				189E90791ED987920023372C /* Sources */,
+				189E907A1ED987920023372C /* Frameworks */,
+				189E907B1ED987920023372C /* Resources */,
+				97F0178860F231FE8661912D /* [CP] Embed Pods Frameworks */,
+				ED08A859E20B4B8749C6CBFC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189E907F1ED987920023372C /* PBXTargetDependency */,
+			);
+			name = TrackMyMedsUITests;
+			productName = TrackMyMedsUITests;
+			productReference = 189E907D1ED987920023372C /* TrackMyMedsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189E90531ED987910023372C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "TecoCraft Troop";
+				TargetAttributes = {
+					189E905A1ED987910023372C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3EHRF995X8;
+						ProvisioningStyle = Automatic;
+					};
+					189E90711ED987920023372C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V4LBCR26S7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189E905A1ED987910023372C;
+					};
+					189E907C1ED987920023372C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V4LBCR26S7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189E905A1ED987910023372C;
+					};
+				};
+			};
+			buildConfigurationList = 189E90561ED987910023372C /* Build configuration list for PBXProject "TrackMyMeds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189E90521ED987910023372C;
+			productRefGroup = 189E905C1ED987910023372C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189E905A1ED987910023372C /* TrackMyMeds */,
+				189E90711ED987920023372C /* TrackMyMedsTests */,
+				189E907C1ED987920023372C /* TrackMyMedsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189E90591ED987910023372C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E90941ED988620023372C /* LaunchScreen.storyboard in Resources */,
+				189E90A91ED98D8A0023372C /* GoogleService-Info.plist in Resources */,
+				189E90B41ED995CC0023372C /* Assets.xcassets in Resources */,
+				189E90921ED9882F0023372C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E90701ED987920023372C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E907B1ED987920023372C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D78F4EC8477F2805D204504 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackMyMeds/Pods-TrackMyMeds-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10556D9BED5C4FA47BD4B687 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackMyMedsTests/Pods-TrackMyMedsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		150E659CBA7DE55856536CDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2CD27DDC81886EED3678864E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36E1FA3C00296C1C4339AA60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackMyMeds/Pods-TrackMyMeds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94945EB3F2707038D3B57346 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97F0178860F231FE8661912D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackMyMedsUITests/Pods-TrackMyMedsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01F3369F5B95DA99A83951F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackMyMedsTests/Pods-TrackMyMedsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED08A859E20B4B8749C6CBFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackMyMedsUITests/Pods-TrackMyMedsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189E90571ED987910023372C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E90A51ED98D8A0023372C /* AddAlarmViewController.swift in Sources */,
+				189E90B61ED99BD50023372C /* UserViewController.swift in Sources */,
+				189E90AD1ED98D8A0023372C /* MedicineDetailsViewController.swift in Sources */,
+				189E90A71ED98D8A0023372C /* AlarmNotificationViewController.swift in Sources */,
+				189E90B31ED98E0B0023372C /* AppDelegate.swift in Sources */,
+				189E90AE1ED98D8A0023372C /* medicineTableViewCell.swift in Sources */,
+				189E90A81ED98D8A0023372C /* AlarmViewController.swift in Sources */,
+				189E90901ED988110023372C /* DataModel.xcdatamodel in Sources */,
+				189E90B11ED98D8A0023372C /* RegisterViewController.swift in Sources */,
+				189E90A61ED98D8A0023372C /* AddMedicineViewController.swift in Sources */,
+				CECDD0771EE34E8500064CFD /* SearchPageViewController.swift in Sources */,
+				189E90B01ED98D8A0023372C /* MoreViewController.swift in Sources */,
+				189E90AB1ED98D8A0023372C /* HomeViewController.swift in Sources */,
+				189E90AC1ED98D8A0023372C /* JHProgressHUD.swift in Sources */,
+				189E90611ED987920023372C /* ViewController.swift in Sources */,
+				189E90AF1ED98D8A0023372C /* MedicineViewController.swift in Sources */,
+				189E90AA1ED98D8A0023372C /* HomeCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E906E1ED987920023372C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E90771ED987920023372C /* TrackMyMedsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E90791ED987920023372C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E90821ED987920023372C /* TrackMyMedsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189E90741ED987920023372C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189E905A1ED987910023372C /* TrackMyMeds */;
+			targetProxy = 189E90731ED987920023372C /* PBXContainerItemProxy */;
+		};
+		189E907F1ED987920023372C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189E905A1ED987910023372C /* TrackMyMeds */;
+			targetProxy = 189E907E1ED987920023372C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		189E90841ED987920023372C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189E90851ED987920023372C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189E90871ED987920023372C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD99C7E16599D5E1EA84D38 /* Pods-TrackMyMeds.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3EHRF995X8;
+				INFOPLIST_FILE = TrackMyMeds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.TrackMyMedsNicolas1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrackMyMeds/TrackMyMeds-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		189E90881ED987920023372C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0405395BE24298344EEE1A9 /* Pods-TrackMyMeds.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3EHRF995X8;
+				INFOPLIST_FILE = TrackMyMeds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.TrackMyMedsNicolas1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrackMyMeds/TrackMyMeds-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		189E908A1ED987920023372C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9781A822963AC7D8A99341 /* Pods-TrackMyMedsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V4LBCR26S7;
+				INFOPLIST_FILE = TrackMyMedsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibjects.TrackMyMedsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyMeds.app/TrackMyMeds";
+			};
+			name = Debug;
+		};
+		189E908B1ED987920023372C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BDAC7AEBF375D0254B2CFC /* Pods-TrackMyMedsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V4LBCR26S7;
+				INFOPLIST_FILE = TrackMyMedsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibjects.TrackMyMedsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyMeds.app/TrackMyMeds";
+			};
+			name = Release;
+		};
+		189E908D1ED987920023372C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84553C94A8DB537FE621015 /* Pods-TrackMyMedsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V4LBCR26S7;
+				INFOPLIST_FILE = TrackMyMedsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibjects.TrackMyMedsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TrackMyMeds;
+			};
+			name = Debug;
+		};
+		189E908E1ED987920023372C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE692B5778E298241D021D83 /* Pods-TrackMyMedsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V4LBCR26S7;
+				INFOPLIST_FILE = TrackMyMedsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibjects.TrackMyMedsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TrackMyMeds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189E90561ED987910023372C /* Build configuration list for PBXProject "TrackMyMeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E90841ED987920023372C /* Debug */,
+				189E90851ED987920023372C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189E90861ED987920023372C /* Build configuration list for PBXNativeTarget "TrackMyMeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E90871ED987920023372C /* Debug */,
+				189E90881ED987920023372C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189E90891ED987920023372C /* Build configuration list for PBXNativeTarget "TrackMyMedsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E908A1ED987920023372C /* Debug */,
+				189E908B1ED987920023372C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189E908C1ED987920023372C /* Build configuration list for PBXNativeTarget "TrackMyMedsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E908D1ED987920023372C /* Debug */,
+				189E908E1ED987920023372C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189E90531ED987910023372C /* Project object */;
+}
