@@ -1,4 +1,4 @@
-# Uncomment the next line to define a global platform for your project
+# Uncomment the next line to define a global platform for my project
 #source 'https://github.com/CocoaPods/Specs.git'
 #platform :ios, '10.0'
 
